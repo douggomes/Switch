@@ -1,0 +1,9 @@
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\bin\Debug\netcoreapp2.2\Switch.Application.deps.json
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\bin\Debug\netcoreapp2.2\Switch.Application.dll
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\bin\Debug\netcoreapp2.2\Switch.Application.pdb
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\obj\Debug\netcoreapp2.2\Switch.Application.csprojAssemblyReference.cache
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\obj\Debug\netcoreapp2.2\Switch.Application.csproj.CoreCompileInputs.cache
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\obj\Debug\netcoreapp2.2\Switch.Application.AssemblyInfoInputs.cache
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\obj\Debug\netcoreapp2.2\Switch.Application.AssemblyInfo.cs
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\obj\Debug\netcoreapp2.2\Switch.Application.dll
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Application\obj\Debug\netcoreapp2.2\Switch.Application.pdb

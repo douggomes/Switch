@@ -1,0 +1,9 @@
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\bin\Debug\netcoreapp2.2\Switch.Domain.deps.json
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\bin\Debug\netcoreapp2.2\Switch.Domain.dll
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\bin\Debug\netcoreapp2.2\Switch.Domain.pdb
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\obj\Debug\netcoreapp2.2\Switch.Domain.csprojAssemblyReference.cache
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\obj\Debug\netcoreapp2.2\Switch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\obj\Debug\netcoreapp2.2\Switch.Domain.AssemblyInfoInputs.cache
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\obj\Debug\netcoreapp2.2\Switch.Domain.AssemblyInfo.cs
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\obj\Debug\netcoreapp2.2\Switch.Domain.dll
+C:\Users\gomes\Documents\GitHub\Switch\Switch.Domain\obj\Debug\netcoreapp2.2\Switch.Domain.pdb
