@@ -17,6 +17,32 @@ namespace Switch.Infra.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Switch.Domain.Entities.Postagem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("DataPublicacao");
+
+                    b.Property<string>("Texto");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Postagems");
+                });
+
+            modelBuilder.Entity("Switch.Domain.Entities.StatusRelacionamento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Descricao");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StatusRelacionamento");
+                });
+
             modelBuilder.Entity("Switch.Domain.Entities.Usuario", b =>
                 {
                     b.Property<int>("Id")
