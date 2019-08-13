@@ -16,6 +16,9 @@ namespace Switch.Infra.Data.Config
             builder.Property(u => u.Sexo).IsRequired();
             builder.Property(u => u.UrlFoto).HasMaxLength(400).IsRequired();
             builder.Property(u => u.DataNascimento).IsRequired();
+            builder.HasOne(u => u.Identificação)
+                .WithOne(i => i.Usuario)
+                .HasForeignKey<Identificação>(i => i.UsuarioId);
            
         }
     }

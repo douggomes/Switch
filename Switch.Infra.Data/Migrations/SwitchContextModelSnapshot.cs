@@ -17,6 +17,25 @@ namespace Switch.Infra.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Switch.Domain.Entities.Identificação", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Numero");
+
+                    b.Property<int>("TipoDocumento");
+
+                    b.Property<int>("UsuarioId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId")
+                        .IsUnique();
+
+                    b.ToTable("Identificação");
+                });
+
             modelBuilder.Entity("Switch.Domain.Entities.Postagem", b =>
                 {
                     b.Property<int>("Id")
@@ -75,6 +94,14 @@ namespace Switch.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Switch.Domain.Entities.Identificação", b =>
+                {
+                    b.HasOne("Switch.Domain.Entities.Usuario", "Usuario")
+                        .WithOne("Identificação")
+                        .HasForeignKey("Switch.Domain.Entities.Identificação", "UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
