@@ -19,6 +19,7 @@ namespace Switch.Infra.Data.Config
             builder.HasOne(u => u.Identificação)
                 .WithOne(i => i.Usuario)
                 .HasForeignKey<Identificação>(i => i.UsuarioId);
+           // builder.HasMany(u => u.Postagens).WithOne(p => p.Usuario);
            
         }
     }

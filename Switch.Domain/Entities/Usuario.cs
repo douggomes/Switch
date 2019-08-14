@@ -16,6 +16,8 @@ namespace Switch.Domain.Entities
         public SexoEnum Sexo { get; set; }
         public string UrlFoto { get; set; }
         public virtual Identificação Identificação { get; set; }
-    
+        public virtual ICollection<Postagem> Postagens { get; set; }
+        public virtual ICollection<UsuarioGrupo> UsuarioGrupos { get; set; }
+
     }
 }
