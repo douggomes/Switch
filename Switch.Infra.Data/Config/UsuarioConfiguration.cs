@@ -18,8 +18,16 @@ namespace Switch.Infra.Data.Config
             builder.Property(u => u.DataNascimento).IsRequired();
             builder.HasOne(u => u.Identificação)
                 .WithOne(i => i.Usuario)
-                .HasForeignKey<Identificação>(i => i.UsuarioId);
-           // builder.HasMany(u => u.Postagens).WithOne(p => p.Usuario);
+                .HasForeignKey<Identificacao>(i => i.UsuarioId);
+            //Usuário pode ter vários comentário porém o cometário só pode ter um único usuário.
+            builder.HasMany(u => u.Comentarios).WithOne(c => c.Usuario);
+            builder.HasMany(u => u.Amigos).WithOne(a => a.Usuario);
+            builder.HasMany(u => u.Postagens).WithOne(a => a.Usuario);
+            builder.HasMany(u => u.UsuarioGrupos).WithOne(a => a.Usuario);
+            builder.HasOne(u => u.StatusRelacionamento);
+            builder.HasOne(u => u.ProcurandoPor);
+
+           
            
         }
     }

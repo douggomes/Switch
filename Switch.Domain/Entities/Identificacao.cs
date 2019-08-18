@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Switch.Domain.Entities
 {
-    public class Identificação
+    public class Identificacao
     {
         public int Id { get; set; }
         public TipoDocumentoEnum TipoDocumento { get; set; }

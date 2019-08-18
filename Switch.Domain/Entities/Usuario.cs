@@ -16,7 +16,7 @@ namespace Switch.Domain.Entities
         public SexoEnum Sexo { get; set; }
         public string UrlFoto { get; set; }
 
-        public virtual Identificação Identificação { get; set; }
+        public virtual Identificacao Identificação { get; set; }
         public virtual StatusRelacionamento StatusRelacionamento { get; set; }
         public virtual ProcurandoPor ProcurandoPor { get; set; }
 
@@ -25,6 +25,7 @@ namespace Switch.Domain.Entities
         public virtual ICollection<LocalTrabalho> LocaisTrabalho { get; set; }
         public virtual ICollection<InstituicaoEnsino> InstituicoesEnsino { get; set; }
         public virtual ICollection<Amigo> Amigos { get; set; }
+        public virtual ICollection<Comentario> Comentarios { get; set; }
 
         public Usuario()
         {
